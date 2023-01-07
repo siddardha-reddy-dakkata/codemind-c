@@ -14,8 +14,7 @@ int main()
         p=0;
         for(j=a[i];a[i]!=0;a[i]=a[i]/10)
         {
-            r=a[i]%10;
-            p=p*10+r;
+            r=a[i]%10;p=p*10+r;
         }
         if(p==temp)
         {
