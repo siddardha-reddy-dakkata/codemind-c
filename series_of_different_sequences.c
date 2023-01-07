@@ -1,5 +1,3 @@
-//even==a*3-4;
-//odd==a*5+b;
 #include<stdio.h>
 int main()
 {
@@ -15,9 +13,9 @@ int main()
         }
         else
         {
-           printf("%d ",b);
-           b=b+c;
-           c=c*5;
+            printf("%d ",b);
+            b=b+c;
+            c=c*5;
         }
     }
 }
