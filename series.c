@@ -1,21 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,a=1,b=1;
+    int n;
     scanf("%d",&n);
-    printf("0 ");
-    printf("%d %d ",a,b);
-    for(i=4;i<=n;i++)
+    int a=1,b=2,i;
+    for(i=0;i<=n;i++)
     {
         if(i%2==0)
         {
-            a=a*3;
             printf("%d ",a);
+            a=(a*2)+1;
         }
         else
         {
-            b=b*2;
             printf("%d ",b);
+            b=(b*3)+2;
         }
     }
 }
