@@ -3,18 +3,19 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int a=1,b=2,i;
-    for(i=0;i<=n;i++)
+    int i,a=1,b=3;
+    printf("0 1 ");
+    for(i=2;i<n;i++)
     {
         if(i%2==0)
         {
             printf("%d ",a);
-            a=(a*2)+1;
+            a=a*2;
         }
         else
         {
             printf("%d ",b);
-            b=(b*3)+2;
+            b=b*3;
         }
     }
 }
