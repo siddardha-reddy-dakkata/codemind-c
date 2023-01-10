@@ -12,12 +12,12 @@ int main()
     {
         s=s+a[i];
     }
-    float avg=(float)s/n;
+    int avg= s/n;
     for(i=0;i<n;i++)
     {
         if(avg>=a[i])
         {
-           c++;
+            c++;
         }
     }
     printf("%d",c);
