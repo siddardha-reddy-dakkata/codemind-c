@@ -6,23 +6,23 @@ int main()
     if(a>=3 && a<=100)
     {
         for(i=1;i<=a;i++)
-    {
-        for(j=1;j<=i;j++)
         {
-            printf("*");
-        }
-        printf("
+            for(j=1;j<=i;j++)
+            {
+                printf("*");
+            }
+            printf("
 ");
-    }
-    for(i=a-1;i>=1;i--)
-    {
-        for(j=i;j>=1;j--)
+        }
+        for(i=a-1;i>=1;i--)
         {
-            printf("*");
-        }
-        printf("
+            for(j=i;j>=1;j--)
+            {
+                printf("*");
+            }
+            printf("
 ");
-    }
+        }
     }
     else
     {
