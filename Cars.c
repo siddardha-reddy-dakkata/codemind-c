@@ -10,7 +10,7 @@ int main()
             b=a/4;
             printf("%d",b);
         }
-        else if(a%4>0)
+        else
         {
             b=(a/4) + 1;
             printf("%d",b);
@@ -20,4 +20,5 @@ int main()
     {
         printf("1");
     }
+  
 }
