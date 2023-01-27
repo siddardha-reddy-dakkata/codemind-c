@@ -8,9 +8,8 @@ int main()
     {
         printf("%d",a/d);
     }
-    else if(a%d!=0)
+    else
     {
         printf("%d",(a/d)+1);
     }
-    return 0;
 }
